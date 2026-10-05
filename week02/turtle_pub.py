@@ -16,7 +16,7 @@ def publisher():
     publisher.publish(vel_msg)
 
     rclpy.spin(node)
-    node.destroy_timer(timer)
+    
     node.destroy_node()
     rclpy.shutdown()
 
