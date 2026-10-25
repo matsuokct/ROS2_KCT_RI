@@ -18,9 +18,9 @@ def pub_turtle():
     def timer_callback():
         global count
         
-        #Question1#
-
         #Question2#
+
+        #Question3#
 
         publisher.publish(vel_msg)
             
